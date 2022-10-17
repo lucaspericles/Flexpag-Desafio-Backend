@@ -55,5 +55,4 @@ public class PaymentController {
         log.info("Excluding payment for id ", id);
         paymentService.deletePayment(id);
     }
-
 }
